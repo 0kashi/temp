@@ -4,7 +4,7 @@
 
 2. Prior to opening up a support ticket please check the Product Pages or Knowledge Base at the bottom left of the page
 
-![alt text](https://github.com/okashi18/temp/blob/master/images/ProductPages.png)
+![alt text](/images/ProductPages.png)
 
 3. If you have not found a solution to the issue there, then select one of these three options. (Note: for the chat you need to have a case number already so you can open one via the phone or the method we will do in the next few steps)
 
