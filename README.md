@@ -13,16 +13,16 @@
 ![alt text](https://github.com/okashi18/temp/blob/master/images/OpenCase.png)
 
 5. Fill out the form accordingly
-a. Account number should be filled in automatically
-b. Select the owner of the case
-c. Select "OpenShift Dedicated" for Product
-d. Select the desired case type
-e. Fill in the remaiming filed with AS MUCH DETAIL AS POSSIBLE
-f. Reccomended: If you have a file to attach select "Attach File".  A screenshot, or log indicitive of the issue will be very helpful
-g. Select an accurate severity level (A description of each level appears below the selected option)
+  a. Account number should be filled in automatically
+  b. Select the owner of the case
+  c. Select "OpenShift Dedicated" for Product
+  d. Select the desired case type
+  e. Fill in the remaiming filed with AS MUCH DETAIL AS POSSIBLE
+  f. Reccomended: If you have a file to attach select "Attach File".  A screenshot, or log indicitive of the issue will be very helpful
+  g. Select an accurate severity level (A description of each level appears below the selected option)
 
 ![alt text](https://github.com/okashi18/temp/blob/master/images/Severity.png)
 
-h. Optional: Add another user to send email notifications too, if you want them to be kept in the loop
+  h. Optional: Add another user to send email notifications too, if you want them to be kept in the loop
 
 6. Click "Submit".  This will bring you to a new page that will display your case number.
