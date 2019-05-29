@@ -17,8 +17,8 @@
   - Select the owner of the case
   - Select "OpenShift Dedicated" for Product
   - Select the desired case type
-  - Fill in the remaiming filed with AS MUCH DETAIL AS POSSIBLE
-  - Reccomended: If you have a file to attach select "Attach File".  A screenshot, or log indicitive of the issue will be very helpful
+  - Fill in the remaiming filed with as much detail as possible
+  - *Recommended:* If you have a file to attach select "Attach File".  A screenshot, or log indicitive of the issue will be very helpful
   - Select an accurate severity level (A description of each level appears below the selected option)
 
 ![Severity](/images/Severity.png)
