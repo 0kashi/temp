@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#update
+sudo yum update -y
+
+#remove the old aws cli
+sudo rm -f /usr/bin/aws
+
+#install the new version 2 aws cli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && unzip awscliv2.zip
+sudo ./aws/install
+sudo mv /usr/local/aws-cli /usr/bin/aws
+
+#install the ROSA cli
+wget https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/rosa/latest/rosa-linux.tar.gz && tar -xzf rosa-linux.tar.gz
+sudo mv rosa /usr/bin
+
+#install the oc cli
+rosa download oc && tar -xzf openshift-client-linux.tar.gz
+sudo mv oc /usr/bin
