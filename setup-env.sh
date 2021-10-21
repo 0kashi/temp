@@ -4,7 +4,7 @@
 sudo yum update -y
 
 #remove the old aws cli
-sudo rm -f /usr/bin/aws
+#sudo rm -f /usr/bin/aws
 
 #install the new version 2 aws cli
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && unzip awscliv2.zip
