@@ -21,3 +21,11 @@ sudo mv rosa /usr/bin
 #install the oc cli
 rosa download oc && tar -xzf openshift-client-linux.tar.gz
 sudo mv oc /usr/bin
+
+#add a file for the user to find
+echo "Thanks for exploring ROSA.  Please enter this value to complete the task:" > /tmp/word.txt
+echo "" >> /tmp/word.txt
+echo "Lollygag" >> /tmp/word.txt
+echo "" >> /tmp/word.txt
+echo "This is actually a word in the english language meaning to fool around and waste time" >> /tmp/word.txt
+echo "according to Merriam-Webster. Thankfully none of us are here to lollygag." >> /tmp/word.txt
