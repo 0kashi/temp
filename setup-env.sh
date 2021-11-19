@@ -31,6 +31,6 @@ echo "This is actually a word in the english language meaning to fool around and
 echo "according to Merriam-Webster. Thankfully none of us are here to lollygag." >> /tmp/word.txt
 
 #add the deployment yamls for task 4
-mkdir /jam/deployment-files && cd /jam/deployment-files
+mkdir /tmp/deployment-files && cd /tmp/deployment-files
 wget https://aws-jam-challenge-resources.s3.amazonaws.com/rosa-openshift/ostoy-frontend.yaml
 wget https://aws-jam-challenge-resources.s3.amazonaws.com/rosa-openshift/ostoy-microservice.yaml
