@@ -7,7 +7,7 @@ sudo yum update -y
 #sudo rm -f /usr/bin/aws
 
 #install jq
-sudo yum install jq
+sudo yum install jq -y
 
 #install the new version 2 aws cli
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && unzip awscliv2.zip
