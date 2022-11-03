@@ -35,7 +35,7 @@ none of us are dealing with kakorrhaphiophobia.
 EOF
 
 #get the IRSA role arn
-cd /reInvent && wget https://aws-jam-challenge-resources.s3.amazonaws.com/rosa-openshift-2/irsa-role-arn.txt
+cd /reInvent && wget https://aws-jam-challenge-resources.s3.amazonaws.com/rosa-openshift-2/irsa-role-annotation.txt
 sudo chmod 666 irsa-role-arn.txt
 
 #add manifests
