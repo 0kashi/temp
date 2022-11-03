@@ -24,7 +24,7 @@ rosa download oc && tar -xzf openshift-client-linux.tar.gz
 sudo mv oc /usr/bin
 
 #add a file for the user to find
-sudo mkdir /reInvent && sudo chmod -R 666 /reInvent
+sudo mkdir -p /reInvent/manifents
 cat <<EOF > /reInvent/word.txt
 Thanks for exploring ROSA.  Please enter this value to complete the task:
 
@@ -37,10 +37,12 @@ EOF
 
 
 #add the deployment yamls for task 4
-mkdir /reInvent/manifests && cd /reInvent/manifests
+cd /reInvent/manifests
 wget https://aws-jam-challenge-resources.s3.amazonaws.com/rosa-openshift-2/ostoy-frontend-deployment.yaml
 wget https://aws-jam-challenge-resources.s3.amazonaws.com/rosa-openshift-2/ostoy-microservice-deployment.yaml
 
 cd /reInvent
 wget https://aws-jam-challenge-resources.s3.amazonaws.com/rosa-openshift-2/s3-bucket.yaml
 wget https://aws-jam-challenge-resources.s3.amazonaws.com/rosa-openshift-2/irsa-role-arn.txt
+
+sudo chmod -R 666 /reInvent
